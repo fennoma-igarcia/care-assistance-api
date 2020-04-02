@@ -1,8 +1,5 @@
 {
-  "visits": {
-  	"error" : null,
-    "payload" : {
-    	"visits" : [
+ 	"visits": [
 	    {
 	      "id": 1,
 	      "when": "2020-04-01 18:00",
@@ -13,12 +10,8 @@
 	      "when": "2020-04-02 19:00",
 	      "doctor-id" : 2
 	    }
-  	]}
-  },
-  "doctors": {
-  	"error" : null,
-    "payload" : {
-    	"doctors" : [
+  	],
+  	"doctors":  [
 	    {
 			"id" : 2,
 			"email" : "doctor2@fennoma.com",
@@ -37,21 +30,19 @@
 			"dob" : "1980-12-30",
 			"role" : "DOCTOR"
 		}
-	]}
-  },
-  "login": {
-    "error" : null,
-    "payload" : {
-    	"user" : {
-    		"id" : 1,
-    		"email" : "jperez@fennoma.com",
-    		"local-id" : "30333444",
-    		"first-name": "Juan",
-    		"last-name": "Pérez",
-    		"dob" : "1980-12-30",
-    		"role" : "PATIENT"
-    	}
+	],
+  	"login": {
+	    "error" : null,
+	    "payload" : {
+	    	"user" : {
+	    		"id" : 1,
+	    		"email" : "jperez@fennoma.com",
+	    		"local-id" : "30333444",
+	    		"first-name": "Juan",
+	    		"last-name": "Pérez",
+	    		"dob" : "1980-12-30",
+	    		"role" : "PATIENT"
+	    	}
+	    }
     }
-    
-  }
 }
