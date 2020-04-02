@@ -1,11 +1,49 @@
 {
-  "posts": [
+  "visits": [
     {
       "id": 1,
-      "title": "hello"
-    }
+      "when": "2020-04-01 18:00",
+      "doctor_id" : 2,
+    },
+    {
+      "id": 2,
+      "when": "2020-04-02 19:00",
+      "doctor_id" : 2,
+    },
   ],
-  "profile": {
-    "name": "typicode"
+  "doctors": [
+    {
+		"id" : 2
+		"email" : "doctor2@fennoma.com",
+		"local-id" : "22222222",
+		"first-name": "Pedro",
+		"last-name": "Petraca",
+		"dob" : "1980-12-30",
+		"role" : "DOCTOR"
+	},
+    {
+		"id" : 3
+		"email" : "doctor3@fennoma.com",
+		"local-id" : "33333333",
+		"first-name": "Pablo",
+		"last-name": "Pitrola",
+		"dob" : "1980-12-30",
+		"role" : "DOCTOR"
+	}
+  ],
+  "login": {
+    "error" : null,
+    "payload" : {
+    	"user" : {
+    		"id" : 1
+    		"email" : "jperez@fennoma.com",
+    		"local-id" : "30333444",
+    		"first-name": "Juan",
+    		"last-name": "Pérez",
+    		"dob" : "1980-12-30",
+    		"role" : "PATIENT"
+    	}
+    }
+    
   }
 }
