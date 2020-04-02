@@ -1,36 +1,44 @@
 {
-  "visits": [
-    {
-      "id": 1,
-      "when": "2020-04-01 18:00",
-      "doctor-id" : 2
-    },
-    {
-      "id": 2,
-      "when": "2020-04-02 19:00",
-      "doctor-id" : 2
-    }
-  ],
-  "doctors": [
-    {
-		"id" : 2,
-		"email" : "doctor2@fennoma.com",
-		"local-id" : "22222222",
-		"first-name": "Pedro",
-		"last-name": "Petraca",
-		"dob" : "1980-12-30",
-		"role" : "DOCTOR"
-	},
-    {
-		"id" : 3,
-		"email" : "doctor3@fennoma.com",
-		"local-id" : "33333333",
-		"first-name": "Pablo",
-		"last-name": "Pitrola",
-		"dob" : "1980-12-30",
-		"role" : "DOCTOR"
-	}
-  ],
+  "visits": {
+  	"error" : null,
+    "payload" : {
+    	"visits" : [
+	    {
+	      "id": 1,
+	      "when": "2020-04-01 18:00",
+	      "doctor-id" : 2
+	    },
+	    {
+	      "id": 2,
+	      "when": "2020-04-02 19:00",
+	      "doctor-id" : 2
+	    }
+  	]}
+  },
+  "doctors": {
+  	"error" : null,
+    "payload" : {
+    	"doctors" : [
+	    {
+			"id" : 2,
+			"email" : "doctor2@fennoma.com",
+			"local-id" : "22222222",
+			"first-name": "Pedro",
+			"last-name": "Petraca",
+			"dob" : "1980-12-30",
+			"role" : "DOCTOR"
+		},
+	    {
+			"id" : 3,
+			"email" : "doctor3@fennoma.com",
+			"local-id" : "33333333",
+			"first-name": "Pablo",
+			"last-name": "Pitrola",
+			"dob" : "1980-12-30",
+			"role" : "DOCTOR"
+		}
+	]}
+  },
   "login": {
     "error" : null,
     "payload" : {
