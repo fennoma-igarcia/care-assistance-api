@@ -3,12 +3,12 @@
     {
       "id": 1,
       "when": "2020-04-01 18:00",
-      "doctor-id" : 2,
+      "doctor-id" : 2
     },
     {
       "id": 2,
       "when": "2020-04-02 19:00",
-      "doctor-id" : 2,
+      "doctor-id" : 2
     },
   ],
   "doctors": [
